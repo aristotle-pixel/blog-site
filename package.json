@@ -1,0 +1,10 @@
+{
+  "name": "k-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate": "node ./scripts/generate.mjs",
+    "dev": "npx serve . -l 4173",
+    "start": "npx serve . -l 4173"
+  }
+}

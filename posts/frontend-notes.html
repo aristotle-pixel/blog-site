@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>前端体验优化清单 | K Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header compact">
+      <a class="logo" href="../index.html">K Blog</a>
+      <nav>
+        <a href="../index.html">首页</a>
+        <a href="../about.html">关于</a>
+      </nav>
+    </header>
+    <main class="container narrow">
+      <article class="article">
+        <p class="post-meta">2026-03-28 · 8 分钟</p>
+        <h1>前端体验优化清单</h1>
+        <p>做个人站点时，我优先关注可读性和速度。字体先定调，颜色形成层次，再用少量动效提升质感。</p>
+<p>其次是结构语义化：合理使用 <code>header</code>、<code>main</code>、<code>article</code> 等元素，方便 SEO 和可访问性。</p>
+<p>最后是性能策略：尽可能静态化、避免不必要依赖、压缩资源并启用缓存。</p>
+      </article>
+
+      <section class="comments-wrap">
+        <h2>评论</h2>
+        <div id="comments"></div>
+      </section>
+    </main>
+    <script src="../assets/site-config.js"></script>
+    <script src="../assets/comments.js"></script>
+  </body>
+</html>
